@@ -4,9 +4,9 @@
 # =============================================================================
 # setup
 library(dplyr)
-library(stargazer)
-library(caret)
-library(pROC)
+#library(stargazer)
+#library(caret)
+#library(pROC)
 setwd('/Users/amawest/Desktop')
 rm(list=ls())
 deer <- read.csv('DMA1_withlatlong.csv')  # with original dates
@@ -168,4 +168,5 @@ confusionMatrix(test$predictions,
 # - http://www.science.smith.edu/~jcrouser/SDS293/labs/lab7-r.html
 # - https://rpubs.com/dvorakt/255527
 # - https://rpubs.com/dtime/672367
+# dslkfjsdlkjfsdlkj
 # =============================================================================
